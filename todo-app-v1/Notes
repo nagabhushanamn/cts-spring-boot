@@ -1,0 +1,37 @@
+
+
+
+todo - app
+----------------
+
+
+Model  ( data )
+
+
+  1. Todo
+  
+     id : Number
+     text : String
+     completed : Boolean
+     
+     
+     
+     
+     
+     Layers ( Logical oraganization )
+     ---------------------------------
+     
+     1. infrastructure layer ( dev , test , prod )
+     
+     2. data/repository layer  
+     
+     3. service/business layer
+     
+     4. web-layer  ( REST API )
+     
+ 
+     ------------------------------------------
+     
+     
+     
+     
