@@ -1,0 +1,40 @@
+
+
+
+  shop - appln
+  -------------
+  
+  
+  business-components
+  -------------------
+  
+  
+  e.g
+  
+  1. Billing  ---> getTotalPrice(cart)
+  2. PriceMatrix --> getPrice(item)
+  
+  
+  types of components
+  -------------------
+  
+  1. dependent
+  2. dependency
+  
+  
+  Billing --> dependent
+  PriceMatrix --> dependency
+  
+  
+  
+  dependent  --- HAS-A  ---- dependency
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
