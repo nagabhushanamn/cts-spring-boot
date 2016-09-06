@@ -35,3 +35,65 @@ Model  ( data )
      
      
      
+     Spring Context - Lifecycle
+     ------------------------
+     
+     1. Initialization Phase
+     
+        a. Load Bean definitions
+        b. Execute BFPP if configured.
+        
+        
+        for every bean defn
+        
+        c. bean instance will create
+        d. dependencies will inject
+        
+        on every bean instanstance
+        
+        e. BPP - before init()
+        f. init()
+        g. BPP - after init()
+        
+        
+       -----------------------------------
+       
+      2. Use Phase
+      
+         bean(or proxy ).businessMethods()
+      
+      -----------------------------------
+      
+      3. Destroy Phase
+      
+         a. destroy()
+         
+      -----------------------------------   
+         
+      
+      
+      
+      Bean's scope within 'context'  
+      
+       a. singleton ( single instance per context )
+       b. prototype
+       
+       for web-appln
+       
+       c. request
+       d. session
+       
+       or
+       
+       e. custom scope
+       
+       ------------------------------------
+          
+     
+     
+     
+     
+     
+     
+     
+     

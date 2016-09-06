@@ -2,9 +2,22 @@ package com.cts.todo.repository;
 
 import java.util.List;
 
+import javax.sql.DataSource;
+
+import org.apache.log4j.Logger;
+
 import com.cts.todo.model.Todo;
 
 public class JdbcTodoRepository implements TodoRepository {
+	
+	private static Logger logger=Logger.getLogger("TODO");
+
+	private DataSource dataSource;
+
+	public JdbcTodoRepository(DataSource dataSource) {
+		this.dataSource = dataSource;
+		logger.info("JdbcTodoRepository instace created  with dataSource");
+	}
 
 	public void add(Todo todo) {
 	}
