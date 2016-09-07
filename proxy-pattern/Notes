@@ -1,0 +1,19 @@
+
+
+RMI ---> proxy pattern
+
+
+server
+------------------------------
+
+ Remote-Object      skelton  ( proxy ) 
+ 
+   .m1()
+   .m2()
+   
+
+client
+----------------------------------   
+   
+ Local-object     stub 
+   
